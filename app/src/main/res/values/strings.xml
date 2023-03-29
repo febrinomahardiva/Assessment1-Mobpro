@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Assessment1</string>
+    <string name="tvLogin">Login</string>
+    <string name="btnLogin">Login</string>
+    <string name="ptUsername">Username</string>
+    <string name="ptFullname">Fullname</string>
+    <string name="ptEmail">Email</string>
+    <string name="username">username</string>
+    <string name="ptPassword">Password</string>
+    <string name="inputKosong">Input tidak boleh kosong!</string>
+    <string name="tvWelcome">Welcome</string>
 </resources>
