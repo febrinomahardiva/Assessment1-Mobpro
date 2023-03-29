@@ -22,20 +22,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun Masuk(){
-        val username = binding.ptUsername.text.toString()
+        val username = binding.username.text.toString()
 
         // mengecek jika inputan kosong
         if(TextUtils.isEmpty(username)){
             Toast.makeText(this, getString(R.string.inputKosong), Toast.LENGTH_LONG).show()
         }
 
-        val password = binding.ptPassword.text.toString()
+        val password = binding.password.text.toString()
 
         if(TextUtils.isEmpty(password)){
             Toast.makeText(this, R.string.inputKosong, Toast.LENGTH_LONG).show()
         }
 
-        val fullname = binding.ptFullname.text.toString()
+        val fullname = binding.fullname.text.toString()
 
         if(TextUtils.isEmpty(fullname)){
             Toast.makeText(this, R.string.inputKosong, Toast.LENGTH_LONG).show()
